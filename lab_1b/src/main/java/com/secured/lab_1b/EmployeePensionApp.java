@@ -5,6 +5,7 @@ import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import com.secured.lab_1b.model.Employee;
 import com.secured.lab_1b.model.PensionPlan;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
@@ -12,6 +13,7 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 
+@SpringBootApplication
 public class EmployeePensionApp {
     private static final List<Employee> employees = new ArrayList<>();
 
