@@ -26,10 +26,10 @@ public class EmployeePensionApp {
 
     private static void loadEmployees() {
         employees.add(new Employee(1, "Daniel", "Agar",
-                LocalDate.of(2018, 1, 17), 105945.50, null));
-        employees.add(new Employee(2, "Benard", "Shaw",
-                LocalDate.of(2022, 9, 3), 197750.00,
+                LocalDate.of(2018, 1, 17), 105945.50,
                 new PensionPlan("EX1089", LocalDate.of(2023, 1, 17), 100.00)));
+        employees.add(new Employee(2, "Benard", "Shaw",
+                LocalDate.of(2022, 9, 3), 197750.00,null));
         employees.add(new Employee(3, "Carly", "Agar",
                 LocalDate.of(2014, 5, 16), 842000.75,
                 new PensionPlan("SM2307", LocalDate.of(2019, 11, 4), 1555.50)));
