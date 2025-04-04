@@ -15,6 +15,7 @@ import java.util.stream.Collectors;
 
 @SpringBootApplication
 public class EmployeePensionApp {
+
     private static final List<Employee> employees = new ArrayList<>();
 
     public static void main(String[] args) throws Exception {
@@ -71,4 +72,5 @@ public class EmployeePensionApp {
         System.out.println("Quarterly Upcoming Enrollees:");
         System.out.println(objectMapper.writeValueAsString(enrollees));
     }
+
 }
